@@ -5,25 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet"> 
     <title>Chess Timer</title>
 </head>
 <body>
 
     <div class="container">
-        <div class="wrapper">
-            <button id="start">⏵</button>
-            <button id="min5">5min</button>
-            <button id="min10">10min</button>
-        </div>
-
+        
         <div class="player" id="player1">
             <div id="time1" class="time"></div>
-            <div id="button1" class="button">Start</div>
+            <!-- <div id="button1" class="button">Start</div> -->
         </div>
 
+        <div class="wrapper">
+            <button id="start" class="button">⏵</button>
+            <button id="tenSecond" class="button">10sec</button>
+            <button id="min5" class="button">5min</button>
+            <button id="min10" class="button">10min</button>
+        </div>
+        
         <div class="player" id="player2">
             <div id="time2" class="time"></div>
-            <div id="button2" class="button">Start</div>
+            <!-- <div id="button2" class="button">Start</div> -->
         </div>
 
     </div>
